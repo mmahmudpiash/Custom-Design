@@ -1,0 +1,94 @@
+/* All Common Css Start */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0,8;
+}
+ul,ol{
+    list-style-type: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* All Ccommon Css End */
+
+/* Head and Banner Css Start */
+
+.bgImg{
+    background-image: url(../Images/Hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.headerPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0px;
+   
+}
+.headBtn{
+    padding: 15px 30px;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: .6s;
+}
+.headBtn:hover{
+    color: black;
+    background-color: darkorange;
+}
+.bannerInfo{
+   padding: 240px 0px;
+}
+.bannerText{
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+}
+.bannerText h1 {
+    font-size: 65px;
+    font-weight: bold;
+    line-height: 75px;
+}
+.bannerBtn{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 70px;
+}
+.bannerBtn a{
+    padding: 15px 35px;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: .6s;
+}
+.bannerBtn a:hover{
+    color: black;
+    background-color: darkorange;
+}
+
+/* Head and Banner Css End */
+
