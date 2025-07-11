@@ -194,7 +194,7 @@ ul,ol{
 .box{
     padding: 30px;
     width: 400px;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.07);
     border: 1px solid #e0e0e0;
     border-radius: 10px;
 }
@@ -239,3 +239,128 @@ ul,ol{
 }
 
 /* User Review Part End */
+
+/* Focus Part Start */
+
+.focusPart{
+    padding: 50px 0px;
+}
+.focusTittle{
+   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.09);
+   border-radius: 15px;
+}
+.focusTittle h1{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 0px;
+}
+.focusTittle p{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.fBtn{
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+.fBtn a{
+    padding: 15px 30px;
+    color: #ffffff;
+    background-color: #4E47FF;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: .6s;
+}
+.fBtn :hover{
+    color: black;
+    background-color: darkorange;
+}
+.fImg{
+    text-align: center;
+}
+.fImg img{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+}
+
+/* Focus Part End */
+
+/* Get In Touch Css Start */
+
+.touchPart{
+    background-color: #efeeff;
+}
+.touchFlex{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.touchLeft h1{
+    width: 700px;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 120px;
+}
+.touchRight{
+    width: 100%;
+}
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+.contact-form label {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+.contact-form input[type="email"],
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #fcfcfc;
+    box-sizing: border-box;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #a0a0a0;
+    font-weight: 400;
+}
+
+.contact-form textarea {
+    resize: vertical; 
+    min-height: 150px;
+}
+.submit-button {
+    width: 100%;
+    padding: 15px 20px;
+    background-color:#4E47FF;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .6s;
+}
+.submit-button:hover{
+    color: black;
+    background-color: darkorange;
+}
+
+/* Get In Touch Css End */
+
+/* Footer Part Start */
+
+/* Footer Part End */ 
+
