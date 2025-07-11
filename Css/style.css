@@ -44,6 +44,9 @@ ul,ol{
     padding: 35px 0px;
    
 }
+.headerPart img{
+    cursor: pointer;
+}
 .headBtn{
     padding: 15px 30px;
     background-color: #4E47FF;
@@ -361,6 +364,33 @@ ul,ol{
 /* Get In Touch Css End */
 
 /* Footer Part Start */
+
+.footerDetails{
+    padding: 100px 0px;
+    text-align: center;
+}
+.footerDetails img{
+    width: 150px;
+    cursor: pointer;
+}
+.footerText p{
+    width: 500px;
+    margin: 0 auto;
+    color: #8987A1;
+    line-height: 30px;
+    padding: 30px 0px;
+}
+.footerText ul{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin: 0 auto;
+}
+.footerText ul li a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
 
 /* Footer Part End */ 
 
